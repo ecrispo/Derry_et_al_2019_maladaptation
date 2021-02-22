@@ -36,3 +36,4 @@ table(dat2$cons_strat,dat2$Sign)
 dat3=read.csv(file.choose(),header=T)
 chisq.test(dat3$cons_strat,dat3$SIGN)
 table(dat3$cons_strat,dat3$SIGN)
+
